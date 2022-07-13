@@ -3,9 +3,14 @@ nav ul{
 }
 nav li{
     list-style: none;
+    margin-right: 20px;
     padding: 0 10px;
 }
+nav li:hover{
+    background-color: lightgray;
+}
 nav li a{
-    color: black;
     text-decoration: none;
+    color: #000;
+    font-size: 20px;
 }
